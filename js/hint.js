@@ -14,5 +14,5 @@ document.getElementById('hint-close').addEventListener('click', function () {
 if (localStorage.getItem('closeHint') !== null) {
     null
 } else {
-    setTimeout(showHint,1000)
+    setTimeout(showHint,5000)
 }
