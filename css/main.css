@@ -4177,6 +4177,16 @@ body > .jcf-select-drop.jcf-drop-flipped {
 	.user-option-slide {
 		display: none !important;
 	}
+
+	.share-hint {
+		width: 25vh;
+		height: 4vh;
+		top: -100px;
+	}
+
+	.share-hint:after {
+		top: 50px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -4216,6 +4226,16 @@ body > .jcf-select-drop.jcf-drop-flipped {
 		top: 10px;
 		right: 10px;
 	}
+
+	.share-hint {
+		width: 40vh;
+		height: 8vh;
+		top: -100px;
+	}
+
+	.share-hint:after {
+		top: 57px;
+	}
 }
 
 @media (max-width: 373px) {
@@ -4231,6 +4251,16 @@ body > .jcf-select-drop.jcf-drop-flipped {
 	.user-header .menu > li > a i {
 		line-height: 37px;
 		font-size: 15px;
+	}
+
+	.share-hint {
+		width: 45vh;
+		height: 8vh;
+		top: -100px;
+	}
+
+	.share-hint:after {
+		top: 50px;
 	}
 }
 
